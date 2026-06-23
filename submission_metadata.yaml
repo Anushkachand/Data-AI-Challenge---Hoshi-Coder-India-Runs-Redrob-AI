@@ -1,0 +1,51 @@
+# Redrob Hackathon — Submission Metadata
+# Following PEP 8 style for configuration formatting.
+
+team_name: "Antigravity-IDE-Ranker"
+
+primary_contact:
+  name: "Devansh Sharma"
+  email: "devansh@example.com"
+  phone: "+91-9999999999"
+
+team_members:
+  - name: "Devansh Sharma"
+    email: "devansh@example.com"
+    role: "Principal AI Engineer"
+
+github_repo: "https://github.com/devanshsharma/redrob-ai-ranker"
+sandbox_link: "https://huggingface.co/spaces/devanshsharma/redrob-ranker"
+reproduce_command: "python rank.py --candidates data/candidates.jsonl.gz --out outputs/team_xxx_final.csv"
+
+compute:
+  platform: "MacBook Pro M2"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.14.5"
+  os: "macOS 15.0"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 3
+
+ai_tools_used:
+  - "Claude"
+  - "Gemini"
+  - "Cursor"
+
+ai_usage_summary: |
+  Used Claude 3.5 Sonnet and Gemini 3.5 Flash inside Antigravity IDE to design the scoring heuristics, trap detection algorithms, and reasoning generator. No candidate data was shared with external LLM APIs during candidate precomputation or ranking execution.
+
+methodology_summary: |
+  Hybrid retrieval + structured scoring + trap-aware reranking system.
+  Employs a local sentence-transformer (all-MiniLM-L6-v2) for initial candidate semantic recall, producing a FAISS IndexFlatIP cosine similarity search over the 100,000 pool to retrieve the top 10,000.
+  A robust secondary structured scoring framework evaluates technical alignment, experience fit (targeting 6-8 years), location proximity (preferring Noida/Pune), and platform behavioral engagement.
+  Inconsistencies are aggressively penalized using trap detection heuristics (impossible salaries, zero-duration expert skills, profile/career duration mismatches) to filter out synthetic honeypots and keyword stuffers.
+  Outputs deterministic, factual, rank-appropriate reasons for selected candidates.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

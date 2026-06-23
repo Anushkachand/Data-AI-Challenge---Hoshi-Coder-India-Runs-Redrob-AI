@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Full/private dataset - do not push
+data/candidates.json
+data/candidates.jsonl
+data/candidates.jsonl.gz
+
+# Generated artifacts
+artifacts/
+outputs/*.csv
+
+# Optional cache
+.cache/
+*.log
