@@ -61,7 +61,24 @@ python rank.py --candidates data/sample_candidates.json --out outputs/sample_sub
 
 ---
 
+## Run Local HR Web App
+
+We provide a local Streamlit web application specifically designed for HR teams and recruiters. It features:
+- **Interactive UI**: Upload candidate datasets and job descriptions directly.
+- **Dynamic Tuning**: Adjust scoring component weights (Technical core, Production evidence, Python/Engineering experience, etc.) and penalty strengths via sliders.
+- **Diagnostic Panel**: Real-time checking of total candidate count, zero fake IDs count, duplicates, monotonicity of scores, and runtime.
+- **CSV Preview & Download**: Preview top-ranked candidates with their details (Title, Experience, Location, Skills, and Reasoning) and download the compliant CSV output.
+
+To run the Streamlit web app:
+```bash
+streamlit run app.py
+```
+*Note: Make sure `streamlit` is installed (`pip install -r requirements.txt`). Everything runs locally without external network API calls.*
+
+---
+
 ## File Structure
+
 
 ```txt
 redrob-ai-ranker/

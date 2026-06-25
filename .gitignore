@@ -15,3 +15,8 @@ outputs/*.csv
 # Optional cache
 .cache/
 *.log
+
+# HR Web App temporary files and outputs
+.tmp_uploads/
+*.csv
+

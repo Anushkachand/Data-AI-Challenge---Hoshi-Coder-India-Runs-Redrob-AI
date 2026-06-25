@@ -6,3 +6,5 @@ faiss-cpu
 python-docx
 pyyaml
 tqdm
+streamlit
+
