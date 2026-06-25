@@ -73,6 +73,10 @@ To run the Streamlit web app:
 ```bash
 streamlit run app.py
 ```
+Once started, the application will automatically open in your browser or can be accessed locally at:
+```txt
+http://localhost:8501
+```
 *Note: Make sure `streamlit` is installed (`pip install -r requirements.txt`). Everything runs locally without external network API calls.*
 
 ---
