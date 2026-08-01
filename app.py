@@ -490,7 +490,7 @@ def main():
     st.markdown(
         """
         <div class="hero-banner">
-            <h1>Devansh Sharma &middot; Hoshi Coders</h1>
+            <h1>RedRob AI Ranker &middot; Hoshi Coders</h1>
             <h2>The Data & AI Challenge | AI Candidate Ranking System</h2>
             <p>
                 Upload a candidate dataset, tune ranking priorities, preview the shortlist, and export a recruiter-ready CSV — all locally.
