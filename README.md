@@ -1,3 +1,13 @@
+
+# Redrob AI Ranker — Intelligent Candidate Discovery & Ranking
+ 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Scikit--learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](#-license)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-brightgreen)](https://data-ai-challenge---hoshi-coder-india-runs-redrob-ai-arbwhwamo.streamlit.app/)
+ 
+
 # Redrob AI Ranker — Intelligent Candidate Discovery & Ranking
 
 A hybrid candidate ranking system designed to identify the top 100 candidates from a 100,000-candidate pool for a **Senior AI Engineer — Founding Team** role. Built for the Redrob Hackathon.
@@ -80,6 +90,8 @@ http://localhost:8501
 *Note: Make sure `streamlit` is installed (`pip install -r requirements.txt`). Everything runs locally without external network API calls.*
 
 ---
+
+
 
 ## File Structure
 
