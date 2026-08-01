@@ -8,7 +8,6 @@
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-brightgreen)](https://data-ai-challenge---hoshi-coder-india-runs-redrob-ai-arbwhwamo.streamlit.app/)
  
 
-# Redrob AI Ranker — Intelligent Candidate Discovery & Ranking
 
 A hybrid candidate ranking system designed to identify the top 100 candidates from a 100,000-candidate pool for a **Senior AI Engineer — Founding Team** role. Built for the Redrob Hackathon.
 
